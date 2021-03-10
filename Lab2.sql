@@ -41,26 +41,26 @@ CREATE TABLE "eat" (
   "cook_time" timestamp,
   "quantity" int
 );
-insert into eat (code, name , price , weight, callories, cook_time, quaintity) values (57709, 'Tart - Pecan Butter Squares', 96, 364, 47, '1:24 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (64199, 'Pastry - Baked Scones - Mini', 71, 389, 649, '4:49 PM', 1);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (52384, 'Sugar - Palm', 73, 406, 619, '3:21 PM', 4);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (24022, 'Jolt Cola - Red Eye', 79, 305, 489, '2:01 PM', 2);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (83626, 'Pineapple - Canned, Rings', 47, 375, 580, '1:27 PM', 4);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (22325, 'Tumeric', 65, 294, 992, '4:12 PM', 2);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (45275, 'Tea - Vanilla Chai', 82, 390, 923, '12:53 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (56042, 'Garlic', 15, 259, 731, '10:08 AM', 2);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (79500, 'Wine - Cava Aria Estate Brut', 43, 470, 612, '2:05 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (65159, 'Bar - Sweet And Salty Chocolate', 48, 306, 665, '2:22 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (53860, 'Wine - Taylors Reserve', 71, 471, 693, '12:43 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (92096, 'Tortillas - Flour, 12', 66, 438, 358, '5:38 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (96095, 'Oven Mitts 17 Inch', 22, 294, 607, '2:17 PM', 2);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (45849, 'Wine - Bourgogne 2002, La', 79, 405, 284, '3:51 PM', 5);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (60462, 'Cup - 6oz, Foam', 61, 458, 274, '2:49 PM', 5);
-insert into eat (code, name , price , weight, callories, cook_time, quaintity) values (97573, 'Pastry - Baked Cinnamon Stick', 96, 434, 351, '1:09 PM', 5);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (67207, 'Salsify, Organic', 97, 418, 437, '4:18 PM', 2);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (52547, 'Mussels - Frozen', 84, 289, 111, '4:52 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (30218, 'Bread - Dark Rye', 87, 357, 506, '1:59 PM', 3);
-insert into eat  (code, name , price , weight, callories, cook_time, quaintity) values (59595, 'Brandy Cherry - Mcguinness', 48, 428, 978, '2:21 PM', 1);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (77016, 'Celery', '$38.12', 979, 705, '2:19 PM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (76613, 'Cake - Cake Sheet Macaroon', '$17.73', 994, 138, '12:22 PM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (45239, 'Venison - Racks Frenched', '$45.03', 729, 397, '10:23 AM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (21868, 'Container Clear 8 Oz', '$99.99', 487, 237, '4:11 PM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (63480, 'Energy Drink Bawls', '$77.97', 539, 151, '3:53 PM', 1);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (78304, 'Wine - Two Oceans Sauvignon', '$68.11', 712, 140, '2:00 PM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (70789, 'Oil - Margarine', '$85.51', 363, 834, '10:28 AM', 2);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (38644, 'Salmon - Sockeye Raw', '$53.90', 270, 969, '4:30 PM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (93867, 'Sauce - Ranch Dressing', '$12.11', 483, 855, '3:25 PM', 2);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (58164, 'Sauce - Rosee', '$84.19', 239, 868, '11:13 AM', 2);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (15300, 'Plasticknivesblack', '$21.77', 480, 788, '2:51 PM', 2);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (36575, 'Mustard - Seed', '$96.99', 842, 665, '11:20 AM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (20874, 'Beer - Rickards Red', '$46.93', 495, 718, '2:03 PM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (29483, 'Vermouth - Sweet, Cinzano', '$95.16', 440, 239, '2:39 PM', 1);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (63084, 'Wine - Fontanafredda Barolo', '$14.64', 322, 118, '12:43 PM', 2);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (28291, 'Juice - Orange, 341 Ml', '$84.54', 225, 815, '3:40 PM', 1);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (60379, 'Coffee Cup 8oz 5338cd', '$21.84', 536, 225, '3:14 PM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (40816, 'Triple Sec - Mcguinness', '$14.26', 894, 280, '10:49 AM', 3);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (81479, 'Chips Potato Reg 43g', '$82.31', 926, 392, '11:43 AM', 1);
+insert into eat (code, name, price, weight, callories, cook_time, quantity) values (11114, 'Foam Espresso Cup Plain White', '$21.78', 750, 907, '2:31 PM', 2);
 
 CREATE TABLE "orders" (
   "id" int PRIMARY KEY,
@@ -68,26 +68,26 @@ CREATE TABLE "orders" (
   "status" status,
   "full_price" int
 );
-insert into orders (id, user_id, status, full_price) values (280078, 3939, false, 1566);
-insert into orders (id, user_id, status, full_price) values (495272, 5930, true, 93);
-insert into orders (id, user_id, status, full_price) values (916612, 5768, true, 1292);
-insert into orders (id, user_id, status, full_price) values (750780, 2636, false, 1620);
-insert into orders (id, user_id, status, full_price) values (695931, 8470, true, 1780);
-insert into orders (id, user_id, status, full_price) values (187708, 1926, true, 1759);
-insert into orders (id, user_id, status, full_price) values (558243, 1724, false, 715);
-insert into orders (id, user_id, status, full_price) values (737444, 6047, true, 599);
-insert into orders (id, user_id, status, full_price) values (510619, 6655, true, 1151);
-insert into orders (id, user_id, status, full_price) values (432189, 6294, false, 1298);
-insert into orders (id, user_id, status, full_price) values (907667, 8837, false, 1513);
-insert into orders (id, user_id, status, full_price) values (394857, 9962, false, 1777);
-insert into orders (id, user_id, status, full_price) values (887472, 4821, false, 1059);
-insert into orders (id, user_id, status, full_price) values (576324, 9226, true, 155);
-insert into orders (id, user_id, status, full_price) values (265450, 6941, true, 634);
-insert into orders (id, user_id, status, full_price) values (976085, 1510, false, 176);
-insert into orders (id, user_id, status, full_price) values (764133, 9070, false, 1762);
-insert into orders (id, user_id, status, full_price) values (609268, 7440, true, 1819);
-insert into orders (id, user_id, status, full_price) values (270008, 1551, false, 1002);
-insert into orders (id, user_id, status, full_price) values (395349, 9619, false, 1794);
+insert into orders (id, user_id, status, full_price) values (471166, 8446, false, '$80.83');
+insert into orders (id, user_id, status, full_price) values (513849, 1205, true, '$135.68');
+insert into orders (id, user_id, status, full_price) values (798248, 2986, true, '$199.87');
+insert into orders (id, user_id, status, full_price) values (228127, 1579, false, '$123.47');
+insert into orders (id, user_id, status, full_price) values (322050, 2693, true, '$168.79');
+insert into orders (id, user_id, status, full_price) values (497685, 8781, false, '$131.91');
+insert into orders (id, user_id, status, full_price) values (467878, 6153, false, '$14.42');
+insert into orders (id, user_id, status, full_price) values (887112, 4951, false, '$198.49');
+insert into orders (id, user_id, status, full_price) values (913408, 5702, false, '$191.07');
+insert into orders (id, user_id, status, full_price) values (427130, 9632, false, '$33.40');
+insert into orders (id, user_id, status, full_price) values (417574, 7145, true, '$111.99');
+insert into orders (id, user_id, status, full_price) values (484062, 9295, true, '$55.21');
+insert into orders (id, user_id, status, full_price) values (677341, 3596, false, '$190.28');
+insert into orders (id, user_id, status, full_price) values (623218, 2420, false, '$120.46');
+insert into orders (id, user_id, status, full_price) values (283626, 6630, false, '$117.04');
+insert into orders (id, user_id, status, full_price) values (204878, 8173, false, '$151.45');
+insert into orders (id, user_id, status, full_price) values (669633, 6294, true, '$135.98');
+insert into orders (id, user_id, status, full_price) values (535698, 3840, true, '$104.31');
+insert into orders (id, user_id, status, full_price) values (617222, 3172, false, '$120.69');
+insert into orders (id, user_id, status, full_price) values (606483, 1258, true, '$20.82');
 
 
 CREATE TABLE "products" (
@@ -97,26 +97,26 @@ CREATE TABLE "products" (
   "quantity" int,
   "time" timestamp
 );
-insert into products (id, name , price, quantity, time) values (6683, 'Tomatoes - Grape', 1511, 14, '4/11/2021');
-insert into products (id, name , price, quantity, time) values (5250, 'Lamb - Whole, Frozen', 1976, 99, '1/8/2021');
-insert into products (id, name , price, quantity, time) values (3416, 'Rum - Light, Captain Morgan', 1656, 83, '3/2/2021');
-insert into products (id, name , price, quantity, time) values (5482, 'Juice - Prune', 1069, 24, '5/25/2021');
-insert into products (id, name , price, quantity, time) values (8522, 'Juice - Apple 284ml', 1019, 63, '12/25/2020');
-insert into products (id, name , price, quantity, time) values (4343, 'Monkfish - Fresh', 12, 77, '6/16/2021');
-insert into products (id, name , price, quantity, time) values (6471, 'Blueberries - Frozen', 201, 67, '5/22/2021');
-insert into products (id, name , price, quantity, time) values (7271, 'Cream - 18%', 1336, 48, '4/1/2021');
-insert into products (id, name , price, quantity, time) values (6725, 'Yoplait Drink', 1522, 38, '2/3/2021');
-insert into products (id, name , price, quantity, time) values (8330, 'Rice - Brown', 1847, 96, '5/22/2021');
-insert into products (id, name , price, quantity, time) values (2220, 'Sauce - Chili', 1290, 64, '1/2/2021');
-insert into products (id, name , price, quantity, time) values (2275, 'Cumin - Whole', 1617, 55, '3/16/2021');
-insert into products (id, name , price, quantity, time) values (6145, 'Doilies - 12, Paper', 112, 53, '9/12/2020');
-insert into products (id, name , price, quantity, time) values (8859, 'Ginger - Crystalized', 1227, 99, '7/13/2021');
-insert into products (id, name , price, quantity, time) values (3403, 'Stock - Beef, Brown', 1428, 34, '5/28/2021');
-insert into products (id, name , price, quantity, time) values (4834, 'Broom - Angled', 129, 49, '12/10/2020');
-insert into products (id, name , price, quantity, time) values (3552, 'Wine - Magnotta - Cab Franc', 204, 54, '3/28/2021');
-insert into products (id, name , price, quantity, time) values (6385, 'Sauce - Alfredo', 192, 75, '11/21/2020');
-insert into products (id, name , price, quantity, time) values (5841, 'Potatoes - Yukon Gold, 80 Ct', 347, 6, '9/28/2020');
-insert into products (id, name , price, quantity, time) values (5847, 'Table Cloth 62x114 White', 1596, 25, '4/15/2021');
+insert into products (id, name, price, quantity, time) values (8992, 'Island Oasis - Mango Daiquiri', '$11.90', 986, '1/1/2021');
+insert into products (id, name, price, quantity, time) values (6661, 'Cookie - Dough Variety', '$175.89', 791, '9/3/2020');
+insert into products (id, name, price, quantity, time) values (8656, 'Muffin Mix - Corn Harvest', '$112.35', 141, '5/28/2020');
+insert into products (id, name, price, quantity, time) values (2195, 'Pineapple - Regular', '$161.46', 712, '9/11/2020');
+insert into products (id, name, price, quantity, time) values (1179, 'Pork - Side Ribs', '$182.54', 667, '7/3/2020');
+insert into products (id, name, price, quantity, time) values (2813, 'Wine - Riesling Alsace Ac 2001', '$57.36', 154, '11/28/2020');
+insert into products (id, name, price, quantity, time) values (2516, 'Plastic Arrow Stir Stick', '$118.57', 634, '5/24/2020');
+insert into products (id, name, price, quantity, time) values (4353, 'Mushroom - Shitake, Fresh', '$185.53', 636, '5/18/2020');
+insert into products (id, name, price, quantity, time) values (6588, 'Pasta - Cappellini, Dry', '$88.03', 743, '10/29/2020');
+insert into products (id, name, price, quantity, time) values (1756, 'Sprouts - Brussel', '$155.75', 695, '6/26/2020');
+insert into products (id, name, price, quantity, time) values (3418, 'Curry Paste - Madras', '$178.05', 988, '7/7/2020');
+insert into products (id, name, price, quantity, time) values (4658, 'Bamboo Shoots - Sliced', '$188.39', 848, '4/15/2020');
+insert into products (id, name, price, quantity, time) values (4925, 'Veal - Chops, Split, Frenched', '$17.26', 272, '7/24/2020');
+insert into products (id, name, price, quantity, time) values (7934, 'Wine - Sauvignon Blanc Oyster', '$24.99', 128, '3/2/2021');
+insert into products (id, name, price, quantity, time) values (8339, 'Chips - Miss Vickies', '$23.20', 152, '11/21/2020');
+insert into products (id, name, price, quantity, time) values (7344, 'Turnip - White, Organic', '$129.36', 501, '8/15/2020');
+insert into products (id, name, price, quantity, time) values (3940, 'Potatoes - Parissienne', '$125.80', 677, '9/26/2020');
+insert into products (id, name, price, quantity, time) values (3159, 'Liners - Banana, Paper', '$165.03', 924, '4/12/2020');
+insert into products (id, name, price, quantity, time) values (4433, 'Ice Cream - Fudge Bars', '$57.44', 442, '11/29/2020');
+insert into products (id, name, price, quantity, time) values (4835, 'Mints - Striped Red', '$70.71', 111, '12/30/2020');
 
 ALTER TABLE "users" ADD FOREIGN KEY ("full_name") REFERENCES "eat" ("name");
 
