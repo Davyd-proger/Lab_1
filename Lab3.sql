@@ -38,6 +38,13 @@ SELECT  *
         WHERE u.users_id = p.products_id);
         
         
+--7
+-- Відображення списку 10 найдорожчих продуктів:
+SELECT ТОР 10 products.name, products.price
+
+FROM products
+
+ORDER BY products.price DESC;
         
         
 
