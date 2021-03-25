@@ -47,4 +47,24 @@ FROM products
 ORDER BY products.price DESC;
         
         
+       
+--8
+--Оператор BETWEEN дозволяє перевірити входження елемента в заданий інтервал із його межами включно(в даному випадку ціна від 20 до 100)
+  SELECT * 
+    FROM eat  
+    WHERE price  BETWEEN "20" AND "100";
 
+--9
+--Поєднуємо 4 поля з 2 таблиць eat та products
+SELECT , name, , price, quantity,callories
+FROM eat
+UNION ALL
+SELECT name, price, weight, callories
+FROM products
+
+--10 
+--Всі записи з правої таблиці, якщо в правій таблиці немає відповідного рядка для лівої таблиці, то в відповідних рядках будуть пусті значення.
+SELECT users.full_name, users.id, eat.name
+FROM users
+RIGHT JOIN eat ON users.full_name=eat.name;
+;
